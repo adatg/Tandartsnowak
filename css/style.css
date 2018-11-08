@@ -9396,6 +9396,10 @@ ol.commentlist li .star-rating {
 31. CUSTOM FOR TANDARTSENPRAKTIJK NOWAK
 ---------------------------------------------------------------*/
 
+.dez-bnr-inr {
+    height: 150px;
+}
+
 #services .dez-info {
     background-color: #fff;
 }
@@ -9466,4 +9470,20 @@ ol.commentlist li .star-rating {
 
 #regulamin-content p {
     text-align: justify;
+}
+
+.mail-address p {
+    word-break: break-word; 
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+#emergency-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#emergency-content p a, #services p a{
+    color: #03A9F4;
 }
