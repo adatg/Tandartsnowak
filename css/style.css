@@ -13,7 +13,7 @@
 
 5. BOX SPACING (inner & outer)
 	>padding
-	>marging
+	>margin
 	
 6. BOX MAX-WIDTH CSS
 
@@ -1192,7 +1192,7 @@ dl dd {
 .dez-img-overlay7,
 .dez-img-overlay8,
 .dez-img-overlay9,
-.dez-img-overlay11,
+.dez-img-overlay11
 {
     position: relative;
 }
@@ -2643,7 +2643,7 @@ blockquote:before {
     padding: 0px;
     position: absolute;
     visibility: hidden;
-    width: 220px;
+    width: 250px;
     z-index: 10;
 }
 .header-nav .nav > li .sub-menu li {
@@ -5050,7 +5050,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: 1px solid #e1e6eb;
     text-align: center;
     border-radius: 4px 0 0 4px;
-    -webkit- border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
 }
 .comments-area p.comment-form-author:before {
     content: "\f007";
@@ -6155,7 +6155,7 @@ a,
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
-    color: ##d4af19;
+    color: #d4af19;
 }
 /* purple */
 
@@ -8422,7 +8422,7 @@ button.scroltop {
 .trans-footer .newsletter button {
     height: 50px;
     padding-left: 20px;
-    ` padding-right: 20px;
+    padding-right: 20px;
 }
 .trans-footer .section-head {
     margin-bottom: 30px;
@@ -9262,7 +9262,7 @@ ol.commentlist li .star-rating {
 	.overlay-50:after {
 		width: 100%;
 	}	
-	.slide-contant-btn .site-button`{
+	.slide-contant-btn .site-button {
 		margin-top:50px;
 		
 	}
@@ -9417,6 +9417,7 @@ ol.commentlist li .star-rating {
 
 #services .dez-info:hover .dez-separator{
     width: 120px;
+    transition: all 0.25s;
     -moz-transition: all 0.25s;
     -webkit-transition: all 0.25s;
     -o-transition: all 0.25s;
